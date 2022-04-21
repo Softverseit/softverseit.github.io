@@ -1,0 +1,242 @@
+*{
+   margin: 0;
+   padding: 0;
+   color: white;
+   box-sizing: border-box;
+}
+
+.Navbar{
+    background-color: black;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Logo{
+    color: white;
+    font-size: 30px;
+    margin: 15px;
+    padding: 15px;
+    
+}
+
+.Items{
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.Items li{
+    width: 140px;
+    margin: 15px;
+    padding: 15px;
+    font-size: 20px;
+}
+.Items li a{
+    text-decoration: none;
+}
+
+.Items li a:hover{
+    color: aqua;
+}
+.first{
+    color: black;
+    font-size: 75px;
+}
+.second{
+    color: black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Content{
+    
+   background-color: powderblue; 
+   width: 100%;
+   height: 500px;
+   padding-top: 60px;
+   padding-left: 120px;
+}
+
+.second{
+    margin-top: 13px;
+}
+.thrid{
+    color: black;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.btn{
+    border: none;
+    background-color: black;
+    width: auto;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.btn p:hover{
+    color: aqua;
+}
+
+.aboutus{
+    background-color: black;
+}
+.about{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.our{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.stroy p{
+color: black;
+text-align: center;
+font-size: 25px;
+margin-top: 15px;
+}
+.Contact h1{
+    color: black;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 40px;
+}
+.Tag{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+.header{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+.addd{
+    font-size: 22px;
+    color: black;
+    padding-top: 15px;
+}
+.adddd{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.page{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+
+.h{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+.ph{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+}
+.hot{
+    font-size: 24px;
+    color: black;
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+.hm{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+.ma{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+}
+.git{
+    font-size: 25px;
+    color: black;
+    text-align: center;  
+    margin-top: 10px;
+}
+
+.Address{
+    margin: 0;
+    padding: 0;
+}
+
+.sub-menu{
+    display: none;
+    margin-right: 100px;
+}
+.sub-menu ul{
+    list-style: none;
+}
+
+.sub-menu ul li{
+    border-bottom: 1px dashed aqua;
+}
+
+.Items li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: black;
+}
+.sub-menu2{
+    display: none;
+}
+
+.Items li:hover .sub-menu2{
+    display: block;
+    position: absolute;
+    background-color: black;
+}
+
+
+.sub-menu2 ul{
+ list-style: none;
+}
+.sub-menu2 ul li{
+    border-bottom: 1px dashed aqua;
+}
+.services{
+    height: 200px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    color: black;
+    font-size: 40px;
+   
+}
+
+.tumbline{
+    color:black;
+    text-align: center !important;
+    font-size: 35px;
+    padding-top: 35px;
+}
+ .offer ol li{
+    color: black;
+    list-style: circle; 
+    font-size: 25px;
+    padding: 10px;
+}
